@@ -60,6 +60,7 @@
 #include "tmr2.h"
 #include "uart1.h"
 #include "reset.h"
+#include "pwm.h"
 #include "interrupt_manager.h"
 #include "traps.h"
 #include "watchdog.h"

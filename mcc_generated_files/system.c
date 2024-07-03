@@ -85,6 +85,7 @@
 #include "tmr1.h"
 #include "tmr2.h"
 #include "uart1.h"
+#include "pwm.h"
 #include "interrupt_manager.h"
 #include "traps.h"
 
@@ -96,6 +97,7 @@ void SYSTEM_Initialize(void)
     UART1_Initialize();
     X2C_Initialize();
     ADC1_Initialize();
+    PWM_Initialize();
     TMR2_Initialize();
     TMR1_Initialize();
     INTERRUPT_GlobalEnable();
