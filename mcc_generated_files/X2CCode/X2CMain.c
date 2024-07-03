@@ -30,7 +30,7 @@ void UpdateOutports(void) {
     LATBbits.LATB6 = *x2cModel.outports.bOutport_blink;
     LATBbits.LATB7 = *x2cModel.outports.bOutport_cmp;
     LATBbits.LATB8 = *x2cModel.outports.bOutport_neg;
-    LATBbits.LATB9 = *x2cModel.outports.bOutport; 
+    LATBbits.LATB9 = *x2cModel.outports.bOutport;  
     // LATBbits.LATB9 = ~LATBbits.LATB9;
 }
 
